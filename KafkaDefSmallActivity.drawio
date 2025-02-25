@@ -4,17 +4,37 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gmRmn8X6EsFne-X2WYc_-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="60" width="450" height="290" as="geometry" />
+        </mxCell>
         <mxCell id="gmRmn8X6EsFne-X2WYc_-8" value="vm1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="90" width="130" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="gmRmn8X6EsFne-X2WYc_-9" value="zookeeper" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="gmRmn8X6EsFne-X2WYc_-8">
+        <mxCell id="gmRmn8X6EsFne-X2WYc_-9" value="zookeeper" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="gmRmn8X6EsFne-X2WYc_-8">
           <mxGeometry x="20" y="40" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gmRmn8X6EsFne-X2WYc_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmRmn8X6EsFne-X2WYc_-10" target="gmRmn8X6EsFne-X2WYc_-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gmRmn8X6EsFne-X2WYc_-10" value="vm2" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="240" width="130" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="gmRmn8X6EsFne-X2WYc_-11" value="zookeeper" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="gmRmn8X6EsFne-X2WYc_-10">
-          <mxGeometry x="20" y="40" width="90" height="30" as="geometry" />
+        <mxCell id="gmRmn8X6EsFne-X2WYc_-11" value="kafka broker 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="gmRmn8X6EsFne-X2WYc_-10">
+          <mxGeometry x="10" y="40" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gmRmn8X6EsFne-X2WYc_-14" value="Kafka Cluster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gmRmn8X6EsFne-X2WYc_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gmRmn8X6EsFne-X2WYc_-15" target="gmRmn8X6EsFne-X2WYc_-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmRmn8X6EsFne-X2WYc_-15" value="vm3" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gmRmn8X6EsFne-X2WYc_-16" value="kafka broker 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="gmRmn8X6EsFne-X2WYc_-15">
+          <mxGeometry x="10" y="40" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
